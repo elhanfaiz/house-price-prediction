@@ -1,14 +1,25 @@
-# House Price Prediction using Machine Learning
+# House Price Prediction App
 
-##  Problem Statement
-Predict house prices based on different features using machine learning models.
+This is a Machine Learning project that predicts house prices .
 
-##  Dataset
-California Housing Dataset
+##  Features
+- Predict house price instantly
+- Simple Streamlit web app
+- Trained on real dataset
 
-##  Models Used
-- Linear Regression
-- Random Forest Regressor
+## Tech Stack
+- Python
+- Scikit-learn
+- Streamlit
+- NumPy
+
+## How to run
+pip install -r requirements.txt
+streamlit run app.py
+
+##  Model
+Linear Regression
+Random Forest Regressor
 
 ##  Results
 - Linear Regression R²: 0.57
@@ -19,9 +30,3 @@ Random Forest performed best due to ability to capture non-linear relationships.
 
 ## Key Insight
 Median Income is the most important feature affecting house prices.
-
-##  Tech Stack
-- Python
-- Pandas
-- Scikit-learn
-- Matplotlib
